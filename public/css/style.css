@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #de7e20;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    transition-duration: 0.3s;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#main-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("/images/beer-bg.jpg");
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding-left: 6em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #de7f206c;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+header h1 {
+    margin: 0;
+    color: #de7e20;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 900;
+}
+
+#logo {
+    width: 70px;
+}
+
+.menu {
+    padding: 0 6em 0 0;
+    margin: 0 0 5px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menu li {
+    margin: 0 25px;
+    list-style: none;
+}
+
+.menu li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* SYLE DE LA SECTION MAIN */
+
+main {
+    width: 100%;
+    height: 800px;  
+}
+
+main section {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article-beer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.article-beer img {
+    width: 150px;
+}

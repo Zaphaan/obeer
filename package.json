@@ -1,0 +1,25 @@
+{
+  "name": "obeer",
+  "version": "1.0.0",
+  "description": "Petit projet pour travailler sur différentes techno :",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaphaan/obeer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaphaan/obeer/issues"
+  },
+  "homepage": "https://github.com/Zaphaan/obeer#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "pg": "^8.4.1"
+  }
+}
